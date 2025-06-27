@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Menú de Restaurante</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="menu-container">
+    <h1>Menú del Restaurante</h1>
+
+    <div class="filtros">
+      <button data-categoria="Todos" class="activo">Todos</button>
+      <button data-categoria="Entradas">Entradas</button>
+      <button data-categoria="Platos Principales">Platos</button>
+      <button data-categoria="Postres">Postres</button>
+      <button data-categoria="Bebidas">Bebidas</button>
+    </div>
+
+    <div id="menu-lista" class="menu-lista"></div>
+
+    <div class="volver-wrapper">
+      <a href="/" class="btn-volver">← Volver al Portfolio</a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

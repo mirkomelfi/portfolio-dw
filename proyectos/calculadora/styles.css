@@ -1,0 +1,103 @@
+:root {
+  --secundario: #f4f4f4;
+  --primario: #0B0E29;
+  --azul-oscuro: #1a1a1a;
+  --azul-francia: #007bff;
+}
+
+body {
+  background-color: var(--secundario);
+  color: var(--azul-oscuro);
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.calculadora {
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  width: 320px;
+}
+
+.pantalla {
+  background: var(--primario);
+  color: white;
+  font-size: 2rem;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  text-align: right;
+  overflow-x: auto;
+}
+
+.botones {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.8rem;
+}
+
+button {
+  padding: 1rem;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 10px;
+  background-color: var(--azul-francia);
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.btn-op {
+  background-color: var(--primario);
+}
+
+.btn-op:hover {
+  background-color: #141740;
+}
+
+.btn-eq {
+  background-color: #28a745;
+}
+
+.btn-eq:hover {
+  background-color: #218838;
+}
+
+.btn-func {
+  background-color: #6c757d;
+}
+
+.btn-func:hover {
+  background-color: #5a6268;
+}
+
+.volver-wrapper {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.btn-volver {
+  background-color: transparent;
+  color: var(--azul-francia);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  border: 2px solid var(--azul-francia);
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.btn-volver:hover {
+  background-color: var(--azul-francia);
+  color: white;
+}

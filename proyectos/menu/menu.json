@@ -1,0 +1,86 @@
+[
+  {
+    "nombre": "Empanadas de Carne",
+    "precio": 4000,
+    "categoria": "Entradas",
+    "imagen": "assets/empanada.jpg"
+  },
+    {
+    "nombre": "Chicken finguers",
+    "precio": 9000,
+    "categoria": "Entradas",
+    "imagen": "assets/finguers.jpg"
+  },
+  {
+    "nombre": "Milanesa con Papas",
+    "precio": 16000,
+    "categoria": "Platos Principales",
+    "imagen": "assets/milanesa.jpg"
+  },
+    {
+    "nombre": "Bife de chorizo con Papas",
+    "precio": 19000,
+    "categoria": "Platos Principales",
+    "imagen": "assets/bife.jpg"
+  },
+  {
+    "nombre": "Ensalada César",
+    "precio": 12000,
+    "categoria": "Platos Principales",
+    "imagen": "assets/ensalada.jpg"
+  },
+    {
+    "nombre": "Pizza Muzzarella",
+    "precio": 12000,
+    "categoria": "Platos Principales",
+    "imagen": "assets/pizza.jpg"
+  },
+     {
+    "nombre": "Spaghetti con salsa boloñesa",
+    "precio": 12000,
+    "categoria": "Platos Principales",
+    "imagen": "assets/fideos.jpg"
+  },
+    {
+    "nombre": "Ñoqui con salsa boloñesa",
+    "precio": 12000,
+    "categoria": "Platos Principales",
+    "imagen": "assets/noqui.jpg"
+  },
+  {
+    "nombre": "Flan Casero",
+    "precio": 9900,
+    "categoria": "Postres",
+    "imagen": "assets/flan.jpg"
+  },
+    {
+    "nombre": "Cheesecake",
+    "precio": 7000,
+    "categoria": "Postres",
+    "imagen": "assets/cheesecake.jpg"
+  },
+    {
+    "nombre": "Panqueque",
+    "precio": 7000,
+    "categoria": "Postres",
+    "imagen": "assets/panqueque.jpg"
+  },
+  {
+    "nombre": "Agua con gas",
+    "precio": 3500,
+    "categoria": "Bebidas",
+    "imagen": "assets/agua.jpeg"
+  },
+    {
+    "nombre": "Coca cola",
+    "precio": 5000,
+    "categoria": "Bebidas",
+    "imagen": "assets/coca.jpeg"
+  },
+    {
+    "nombre": "Sprite",
+    "precio": 5000,
+    "categoria": "Bebidas",
+    "imagen": "assets/sprite.jpeg"
+  }
+]

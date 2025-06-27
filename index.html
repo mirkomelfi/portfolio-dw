@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <title>Mirko Melfi - Portfolio</title>
+    <link rel="stylesheet" href="styles.css?v=1.10">
+    <link rel="icon" type="image/png" href="/assets/logo1.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <style>
+        /*Para que baje suave hasta el ID marcado*/
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+<body>
+
+<header class="header">
+  <div class="logo">Mirko<span>Melfi.</span></div>
+
+  <nav class="navbar">
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#quien-soy">Quién soy</a></li>
+      <li><a href="#formacion">Formación</a></li>
+      <li><a href="#habilidades">Habilidades</a></li>
+      <li><a href="#proyectos">Proyectos</a></li>
+    </ul>
+    <a href="#contacto" class="btn-nav">Contactame</a>
+  </nav>
+
+    <!-- Botón hamburguesa solo visible en mobile -->
+  <div class="hamburger" id="hamburger">☰</div>
+
+  <!-- Overlay oscuro -->
+  <div class="overlay" id="overlay"></div>
+
+  <!-- Menú mobile lateral -->
+  <div class="mobile-menu" id="mobileMenu">
+    <div class="mobile-header">
+      <span class="logo">Mirko<span>Melfi.</span></span>
+      <button id="closeMenu">✕</button>
+    </div>
+    <ul>
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#quien-soy">Quién soy</a></li>
+      <li><a href="#formacion">Formación</a></li>
+      <li><a href="#habilidades">Habilidades</a></li>
+      <li><a href="#proyectos">Proyectos</a></li>
+      <li><a href="#contacto">Contactame</a></li>
+    </ul>
+  </div>
+</header>
+
+
+
+<section id="inicio" class="hero">
+  <div class="hero-content">
+    <div class="hero-texto">
+      <p class="intro">Hola, soy Mirko Melfi</p>
+      <h1>Analista en Informática</h1>
+      <p class="descripcion">
+          Busco oportunidades para integrarme a un equipo de desarrollo y seguir creciendo profesionalmente.  
+          En esta web comparto proyectos reales, tecnologías que manejo y cómo aplico buenas prácticas de desarrollo.  
+          Gracias por visitar mi portfolio.
+      </p>
+    </div>
+    <div class="hero-imagen">
+      <img src="/assets/fotomirko.png" alt="Foto de Mirko Melfi">
+    </div>
+  </div>
+</section>
+
+
+  <section class="quien-soy" id="quien-soy">
+    <h2>Quién soy</h2>
+    <div class="quien-soy-texto">
+      <p>
+        Soy una persona <strong>organizada</strong>, <strong>detallista</strong> y siempre <strong>dispuesta a aprender</strong>. Me desenvuelvo bien trabajando tanto <strong>solo</strong> como en <strong>equipo</strong>. Actualmente, estoy cursando el quinto y último año de la carrera <strong>Ingeniería Informática</strong>, ya habiendo aprobado más del 85% de las materias y obteniendo como resultado el <strong>Título Intermedio de Analista en Informática</strong>. En mi tiempo libre busco seguir <strong>capacitándome</strong>, aprendiendo nuevas tecnologías y profundizando en las que ya conozco. Paralelamente, estudio <strong>inglés</strong> con el objetivo de alcanzar el nivel C2.
+      <br>
+      
+        Además de mi formación académica, llevo adelante dos <strong>proyectos personales</strong> que reflejan mi perfil <strong>emprendedor</strong>. Desde los 17 años dirijo una <strong>empresa de adiestramiento canino</strong>, en la que me encargo personalmente de <strong>comunicarme con los clientes</strong>, <strong>entender sus necesidades</strong> y <strong>dictar las clases</strong>, logrando más de <strong>1000 casos exitosos</strong> con resultados comprobables. Esta experiencia me permitió desarrollar una <strong>excelente capacidad para explicar conceptos</strong>, generar <strong>confianza</strong> y mantener una <strong>comunicación efectiva</strong> con públicos diversos. Parte de esta trayectoria puede visualizarse en <a href="https://adiestramientocaninojirok.com" target="_blank">la web del emprendimiento</a>.
+      <br>
+      
+        Más recientemente, luego de años trabajando como <strong>freelancer</strong>, fundé un <strong>estudio de diseño web</strong>, en el que desarrollamos <strong>sitios modernos</strong> para profesionales y pequeñas empresas, aplicando buenas prácticas de <strong>UX/UI</strong>, <strong>diseño responsive</strong> y <strong>SEO</strong>. En este rol, no solo ejecuto la parte técnica, sino también me encargo de <strong>vender los proyectos</strong>, <strong>negociar presupuestos</strong>, <strong>comunicarme con clientes</strong> y asegurarme de brindar una <strong>experiencia clara, cercana y profesional</strong>, además de <strong>liderar</strong> al equipo que trabaja conmigo. Esto potenció mi <strong>perfil comercial</strong>, mi <strong>capacidad de persuasión</strong> y mi <strong>trato humano</strong>, habilidades que hoy considero clave en cualquier entorno profesional. <br>Ambas experiencias fortalecieron mis <strong>habilidades organizativas</strong>, de <strong>liderazgo</strong> y <strong>comunicación</strong>, que complemento con mi formación de grado en informática.
+      </p>
+    </div>
+
+    <div class="accordion-section">
+      <button class="accordion-btn" onclick="toggleAcordeon('bloque1',this)">Formación y perfil académico <span class="arrow">›</span></button>
+      <div id="bloque1" class="accordion-content">
+        Soy una persona <strong>organizada</strong>, <strong>detallista</strong> y siempre <strong>dispuesta a aprender</strong>. Me desenvuelvo bien trabajando tanto <strong>solo</strong> como en <strong>equipo</strong>. Actualmente, estoy cursando el quinto y último año de la carrera <strong>Ingeniería Informática</strong>, ya habiendo aprobado más del 85% de las materias y obteniendo como resultado el <strong>Título Intermedio de Analista en Informática</strong>. En mi tiempo libre busco seguir <strong>capacitándome</strong>, aprendiendo nuevas tecnologías y profundizando en las que ya conozco. Paralelamente, estudio <strong>inglés</strong> con el objetivo de alcanzar el nivel C2.
+      </div>
+
+      <button class="accordion-btn" onclick="toggleAcordeon('bloque2',this)">Autogestión y visión emprendedora <span class="arrow">›</span></button>
+      <div id="bloque2" class="accordion-content">
+        Desde los 17 años dirijo una <strong>empresa de adiestramiento canino</strong>, en la que me encargo personalmente de <strong>comunicarme con los clientes</strong>, <strong>entender sus necesidades</strong> y <strong>dictar las clases</strong>, logrando más de <strong>1000 casos exitosos</strong> con resultados comprobables. Esta experiencia me permitió desarrollar una <strong>excelente capacidad para explicar conceptos</strong>, generar <strong>confianza</strong> y mantener una <strong>comunicación efectiva</strong> con públicos diversos. Parte de esta trayectoria puede visualizarse en <a href="https://adiestramientocaninojirok.com" target="_blank">la web del emprendimiento</a>.
+      </div>
+
+      <button class="accordion-btn" onclick="toggleAcordeon('bloque3',this)">Liderazgo y gestión de proyectos <span class="arrow">›</span></button>
+      <div id="bloque3" class="accordion-content">
+        Luego de años trabajando como <strong>freelancer</strong>, fundé un <strong>estudio de diseño web</strong>, en el que desarrollamos <strong>sitios modernos</strong> para profesionales y pequeñas empresas, aplicando buenas prácticas de <strong>UX/UI</strong>, <strong>diseño responsive</strong> y <strong>SEO</strong>. En este rol, no solo ejecuto la parte técnica, sino también me encargo de <strong>vender los proyectos</strong>, <strong>negociar presupuestos</strong>, <strong>comunicarme con clientes</strong> y asegurarme de brindar una <strong>experiencia clara, cercana y profesional</strong>, además de <strong>liderar</strong> al equipo que trabaja conmigo.
+      </div>
+
+      <button class="accordion-btn" onclick="toggleAcordeon('bloque4',this)">Empatía, adaptabilidad y colaboración <span class="arrow">›</span></button>
+      <div id="bloque4" class="accordion-content">
+        Estas experiencias fortalecieron mis <strong>habilidades organizativas</strong>, de <strong>liderazgo</strong> y <strong>comunicación</strong>, que complemento con mi formación de grado en informática. También potenció mi <strong>perfil comercial</strong>, mi <strong>capacidad de persuasión</strong> y mi <strong>trato humano</strong>, habilidades que considero clave en cualquier entorno profesional.
+      </div>
+    </div>
+
+
+  </section>
+
+  <section class="formacion" id="formacion">
+    <h2>Formación</h2>
+    <div class="formacion-grid">
+
+      <div class="card-formacion">
+        <h3>Ingeniero Informático</h3>
+        <p>Universidad Argentina de la Empresa (UADE), Buenos Aires</p>
+        <span>Marzo 2021 – Actualidad</span>
+      </div>
+      
+      <div class="card-formacion">
+        <h3>Desarrollador Frontend React</h3>
+        <p>Coderhouse, Buenos Aires</p>
+        <span>Marzo 2022 – Octubre 2022</span>
+      </div>
+
+      <div class="card-formacion">
+        <h3>Desarrollador de Aplicaciones</h3>
+        <p>Coderhouse, Buenos Aires</p>
+        <span>Marzo 2022 – Enero 2023</span>
+      </div>
+      
+      <div class="card-formacion">
+        <h3>Desarrollador Full Stack</h3>
+        <p>Coderhouse, Buenos Aires</p>
+        <span>Junio 2022 – Julio 2023</span>
+      </div>
+
+    </div>
+  </section>
+
+  <hr class="separador-mobile">
+
+  <section class="habilidades" id="habilidades">
+    <div class="habilidades-wrapper">
+      <div class="habilidades-titulo">
+        <h2>Mis habilidades</h2>
+      </div>
+      <div class="habilidades-contenido">
+
+        <div class="grupo-habilidades">
+          <h3>Backend</h3>
+          <ul>
+            <li>Java (Spring Boot)</li>
+            <li>JavaScript (Node JS)</li>
+            <li>Python (básico)</li>
+          </ul>
+        </div>
+
+        <div class="grupo-habilidades">
+          <h3>Frontend</h3>
+          <ul>
+            <li>HTML5 & CSS3</li>
+            <li>React JS</li>
+            <li>React Native (Expo)</li>
+          </ul>
+        </div>
+
+        <div class="grupo-habilidades">
+          <h3>Bases de Datos</h3>
+          <ul>
+            <li>Modelado (DER, normalización)</li>
+            <li>MySQL (Hibernate)</li>
+            <li>MongoDB (Mongoose)</li>
+          </ul>
+        </div>
+
+        <div class="grupo-habilidades">
+          <h3>Herramientas</h3>
+          <ul>
+            <li>GitHub</li>
+            <li>StarUML (diagramas)</li>
+            <li>Metodologías ágiles - Scrum</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <section id="proyectos" class="proyectos">
+    <div class="contenedor">
+      <h2>Ejercicios JavaScript</h2>
+      <div class="grid-proyectos">
+
+        <!-- Proyecto 1: Calculadora -->
+        <div class="proyecto-card">
+          <img src="/assets/calculadora.png" alt="Calculadora JavaScript">
+          <div class="etiquetas">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+          </div>
+          <h3>Calculadora Básica</h3>
+          <p>
+            Calculadora funcional que permite sumar, restar, multiplicar y dividir números. También incluye operaciones como porcentaje y raíz cuadrada.
+          </p>
+          <div class="botones-proyecto">
+            <a href="/proyectos/calculadora/index.html" class="btn-proyecto">Ver inSite</a>
+            <a href="/proyectos/calculadora/index.html" class="btn-proyecto" target="_blank">Ir al sitio</a>
+          </div>
+        </div>
+
+        <!-- Proyecto 2: Lista de Tareas -->
+        <div class="proyecto-card">
+          <img src="/assets/tareas1.png" alt="Lista de Tareas">
+          <div class="etiquetas">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+          </div>
+          <h3>Lista de Tareas</h3>
+          <p>
+            Aplicación para gestionar tareas. Permite agregar, marcar como completadas y eliminar tareas. Usa localStorage para guardar los datos.
+          </p>
+          <div class="botones-proyecto">
+            <a href="/proyectos/tareas/index.html" class="btn-proyecto">Ver inSite</a>
+            <a href="/proyectos/tareas/index.html" class="btn-proyecto" target="_blank">Ir al sitio</a>
+          </div>
+        </div>
+
+        <!-- Proyecto 3: Menú Restaurante -->
+        <div class="proyecto-card">
+          <img src="/assets/menu.png" alt="Menú Restaurante">
+          <div class="etiquetas">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>JSON</span>
+          </div>
+          <h3>Menú de Restaurante</h3>
+          <p>
+            Menú dinámico que carga platos desde un archivo JSON. Permite filtrar por categorías como Entradas, Principales y Postres.
+          </p>
+          <div class="botones-proyecto">
+            <a href="/proyectos/menu/index.html" class="btn-proyecto">Ver inSite</a>
+            <a href="/proyectos/menu/index.html" class="btn-proyecto" target="_blank">Ir al sitio</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="contacto-form">
+    <section id="contacto" class="contacto">
+      <div class="contacto-txt">
+        <h1>Contactame</h1>
+        <div class="contacto-iconos">
+          <div class="items-contact">
+            <a href="https://wa.me/541133169586" target="_blank">
+              <img src="/assets/icono-wpp.png" alt="WhatsApp">
+            </a>
+            <p>+54 9 11 3316 9586</p>
+          </div>
+          <div class="items-contact">
+            <a href="mailto:contacto@mirkomelfi.com.ar" target="_blank">
+              <img src="/assets/icono-gmail.png" alt="Email">
+            </a>
+            <p>contacto@mirkomelfi.com.ar</p>
+          </div>
+          <div class="items-contact">
+            <a href="https://linkedin.com/in/mirko-melfi-93bb242aa" target="_blank">
+              <img src="/assets/icono-link.png" alt="LinkedIn">
+            </a>
+            <p>Perfil LinkedIn</p>
+          </div>
+          <div class="items-contact">
+            <a href="/assets/Curriculum - Mirko Melfi  (Español).pdf" download class="btn-descarga">
+              <img src="/assets/icono-download.png" alt="Descargar">
+            </a>
+            <p>Descargar CV</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <section id="form" class="form">
+      <div class="txt-form">
+        <h1>Dejame tu mensaje!</h1>
+      </div>
+      <form class="form-contacto" id="form-contacto">
+        <input type="text" name="from_name" placeholder="Nombre" required>
+        <input type="email" name="reply_to" placeholder="Correo electrónico" required>
+        <!--input type="text" name="subject" placeholder="Asunto" required-->
+        <textarea name="message" rows="4" placeholder="Mensaje..." required></textarea>
+        <button type="submit">Enviar mensaje</button>
+      </form>
+    </section>
+  </section>
+  <footer>
+    <p>© 2025 Mirko Melfi. Todos los derechos reservados.</p>
+  </footer>
+
+<script>
+  const hamburger = document.getElementById("hamburger");
+  const mobileMenu = document.getElementById("mobileMenu");
+  const closeMenu = document.getElementById("closeMenu");
+  const overlay = document.getElementById("overlay");
+  const menuLinks = mobileMenu.querySelectorAll("a");
+
+  const openMenu = () => {
+    mobileMenu.style.display = "flex";
+    overlay.style.display = "block";
+  };
+
+  const closeMobileMenu = () => {
+    mobileMenu.style.display = "none";
+    overlay.style.display = "none";
+  };
+
+  hamburger.addEventListener("click", openMenu);
+  closeMenu.addEventListener("click", closeMobileMenu);
+  overlay.addEventListener("click", closeMobileMenu);
+
+  menuLinks.forEach(link => {
+    link.addEventListener("click", closeMobileMenu);
+  });
+</script>
+
+
+
+
+ <script>
+  function toggleAcordeon(id, button) {
+    const content = document.getElementById(id);
+    const allContents = document.querySelectorAll('.accordion-content');
+    const allButtons = document.querySelectorAll('.accordion-btn');
+
+    // Cierra todos
+    allContents.forEach(c => {
+      if (c !== content) {
+        c.style.maxHeight = null;
+        c.style.overflow = "hidden";
+        c.style.paddingTop= "0";
+        c.style.paddingBottom= "0";  
+      }
+    });
+
+    allButtons.forEach(b => {
+      if (b !== button) b.classList.remove('active');
+    });
+
+    // Toggle actual
+    if (content.style.maxHeight) {
+      content.style.maxHeight = null;
+      content.style.overflow = "hidden";
+      content.style.paddingTop= "0";
+      content.style.paddingBottom= "0";
+      button.classList.remove('active');
+    } else {
+      content.style.maxHeight = content.scrollHeight+30 + "px";
+      content.style.overflow = "visible";
+      content.style.paddingTop= "0.5rem"
+      content.style.paddingBottom= "0.5rem"
+      button.classList.add('active');
+    }
+  }
+</script>
+
+
+
+
+<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script>
+  (function(){
+    emailjs.init("-OIQzzIUuKCMTulfD");
+  })();
+
+  document.getElementById("form-contacto").addEventListener("submit", function(event) {
+    event.preventDefault();
+
+    emailjs.sendForm("service_mirko_portfolio", "template_tw28hwe", this)
+      .then(() => {
+        alert("¡Email enviado correctamente!");
+        this.reset();
+      }, (error) => {
+        alert("Error al enviar el mensaje. Intente de nuevo.");
+        console.error(error);
+      });
+  });
+</script>
+
+
+</body>
+</html>
