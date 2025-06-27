@@ -30,17 +30,25 @@ h1 {
   color: var(--primario);
 }
 
+/* === BOTONES DE FILTRO === */
 .filtros {
   text-align: center;
   margin-bottom: 1.5rem;
 }
 
+.filtros-botones {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
 .filtros button {
-  margin: 0.3rem;
   padding: 0.6rem 1.2rem;
-  border: none;
   background-color: var(--azul-francia);
   color: white;
+  font-weight: 600;
+  border: none;
   border-radius: 8px;
   cursor: pointer;
   transition: background 0.3s ease;
@@ -51,6 +59,47 @@ h1 {
   background-color: #0056b3;
 }
 
+/*dropdown mobile */
+.filtros-select {
+  display: none;
+  width: 100%;
+  padding: 0.7rem 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 8px;
+  border: 1.5px solid var(--azul-francia);
+  background-color: white;
+  color: var(--primario);
+  font-family: 'Inter', sans-serif;
+  transition: border 0.3s ease;
+  margin-top: 1rem;
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg width='14' height='14' viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M5 7L10 12L15 7' stroke='%23007bff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 1rem center;
+  background-size: 1rem;
+  cursor: pointer;
+}
+
+.filtros-select:focus {
+  outline: none;
+  border-color: #0056b3;
+}
+
+
+
+/* Mobile*/
+@media (max-width: 600px) {
+  .filtros-botones {
+    display: none;
+  }
+
+  .filtros-select {
+    display: block;
+  }
+}
+
+/* === ITEMS DEL MENÚ === */
 .menu-lista {
   display: grid;
   gap: 1rem;
@@ -84,6 +133,7 @@ h1 {
   font-weight: bold;
 }
 
+/* === BOTÓN VOLVER === */
 .volver-wrapper {
   text-align: center;
   margin-top: 2rem;

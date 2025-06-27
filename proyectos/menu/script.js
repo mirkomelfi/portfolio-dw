@@ -45,3 +45,10 @@ botones.forEach(btn => {
     mostrarMenu(categoria);
   });
 });
+
+const filtroSelect = document.querySelector('.filtros-select');
+
+filtroSelect.addEventListener('change', () => {
+  mostrarMenu(filtroSelect.value);
+});
+

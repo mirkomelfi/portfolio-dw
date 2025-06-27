@@ -12,12 +12,25 @@
     <h1>Menú del Restaurante</h1>
 
     <div class="filtros">
-      <button data-categoria="Todos" class="activo">Todos</button>
-      <button data-categoria="Entradas">Entradas</button>
-      <button data-categoria="Platos Principales">Platos</button>
-      <button data-categoria="Postres">Postres</button>
-      <button data-categoria="Bebidas">Bebidas</button>
+      <!-- Botones para desktop -->
+      <div class="filtros-botones">
+        <button data-categoria="Todos" class="activo">Todos</button>
+        <button data-categoria="Entradas">Entradas</button>
+        <button data-categoria="Platos Principales">Platos</button>
+        <button data-categoria="Postres">Postres</button>
+        <button data-categoria="Bebidas">Bebidas</button>
+      </div>
+
+      <!-- Dropdown para mobile -->
+      <select class="filtros-select">
+        <option value="Todos">Todos</option>
+        <option value="Entradas">Entradas</option>
+        <option value="Platos Principales">Platos</option>
+        <option value="Postres">Postres</option>
+        <option value="Bebidas">Bebidas</option>
+      </select>
     </div>
+
 
     <div id="menu-lista" class="menu-lista"></div>
 

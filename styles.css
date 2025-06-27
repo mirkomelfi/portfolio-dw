@@ -951,6 +951,7 @@ footer {
 
 .botones-proyecto {
   justify-self: flex-end;
+  gap: 0.5rem;
   margin-top: 1rem;
   display: flex;
   flex-wrap: wrap;

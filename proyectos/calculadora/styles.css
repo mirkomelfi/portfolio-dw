@@ -101,3 +101,9 @@ button:hover {
   background-color: var(--azul-francia);
   color: white;
 }
+
+@media (max-width: 400px) {
+ .calculadora{
+  margin: 0 1rem;
+ }
+}

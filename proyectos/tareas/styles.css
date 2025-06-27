@@ -110,3 +110,38 @@ li.completada {
   background-color: var(--azul-francia);
   color: white;
 }
+@media (max-width: 400px) {
+  form {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.8rem;
+  }
+
+  input[type="text"] {
+    padding: 0.9rem;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: 1.5px solid #ccc;
+  }
+
+  button {
+    padding: 0.9rem;
+    font-size: 1rem;
+    border-radius: 10px;
+  }
+
+  li {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    font-size: 1rem;
+    gap: 1rem;
+  }
+
+  .btn-eliminar {
+    font-size: 1.3rem;
+    padding: 0;
+    align-self: center;
+  }
+}
