@@ -33,12 +33,12 @@ function mostrarMenu(categoria) {
   });
 }
 
-// Evento para los botones de filtro
+// Botones de filtrado
 botones.forEach(btn => {
   btn.addEventListener('click', () => {
-    // Remueve activo de todos
+    // Remuevo activo de todos los botones
     botones.forEach(b => b.classList.remove('activo'));
-    // Marca como activo el actual
+    // Marco como activo el actual
     btn.classList.add('activo');
 
     const categoria = btn.getAttribute('data-categoria');
@@ -46,6 +46,7 @@ botones.forEach(btn => {
   });
 });
 
+// filtros del dropdown
 const filtroSelect = document.querySelector('.filtros-select');
 
 filtroSelect.addEventListener('change', () => {

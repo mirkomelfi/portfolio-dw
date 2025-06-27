@@ -30,7 +30,6 @@ h1 {
   color: var(--primario);
 }
 
-/* === BOTONES DE FILTRO === */
 .filtros {
   text-align: center;
   margin-bottom: 1.5rem;
@@ -99,7 +98,6 @@ h1 {
   }
 }
 
-/* === ITEMS DEL MENÚ === */
 .menu-lista {
   display: grid;
   gap: 1rem;
@@ -133,7 +131,6 @@ h1 {
   font-weight: bold;
 }
 
-/* === BOTÓN VOLVER === */
 .volver-wrapper {
   text-align: center;
   margin-top: 2rem;
