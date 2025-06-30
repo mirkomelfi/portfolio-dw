@@ -957,6 +957,28 @@ footer {
   flex-wrap: wrap;
 }
 
+/*Volver*/
+.btn-flotante-linktree {
+  position: fixed;
+  left: 20px;
+  bottom: 20px;
+  background-color: #007bff;
+  color: white;
+  padding: 0.7rem 1.1rem;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  z-index: 999;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-flotante-linktree:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
 @media (max-width: 410px) {
 
   .btn-proyecto {
